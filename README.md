@@ -1,0 +1,1 @@
+# Mattermost Clap Hook
