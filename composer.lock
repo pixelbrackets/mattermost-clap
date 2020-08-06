@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "867d87f5838904dc75880170fc041589",
+    "content-hash": "987405d2e8269192486fdd72ee68b8c7",
     "packages": [
         {
             "name": "elementaryframework/water-pipe",
@@ -63,6 +63,76 @@
             "time": "2019-11-21T08:16:43+00:00"
         },
         {
+            "name": "helhum/dotenv-connector",
+            "version": "v2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helhum/dotenv-connector.git",
+                "reference": "9ce9bb6ba94e09536b7345ad22a42bdcfbdfef90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helhum/dotenv-connector/zipball/9ce9bb6ba94e09536b7345ad22a42bdcfbdfef90",
+                "reference": "9ce9bb6ba94e09536b7345ad22a42bdcfbdfef90",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.0",
+                "symfony/dotenv": "^3.3.0 || ^4.0 || ^5.0"
+            },
+            "conflict": {
+                "symfony/dotenv": ">=5.1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || 2.0.*@dev",
+                "composer/semver": "^1.0 || 2.0.*@dev",
+                "mikey179/vfsstream": "^1.6.0",
+                "phpunit/phpunit": "^5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Helhum\\DotEnvConnector\\Plugin",
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Helhum\\DotEnvConnector\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Helmut Hummel",
+                    "email": "info@helhum.io"
+                }
+            ],
+            "description": "Makes it possible to set environment variables for composer projects.",
+            "homepage": "https://github.com/helhum/dotenv-connector",
+            "keywords": [
+                "12factor",
+                "composer",
+                "dotenv",
+                "env"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/helhum/19.99",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/helhum",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-06-01T16:26:28+00:00"
+        },
+        {
             "name": "pixelbrackets/html5-mini-template",
             "version": "1.7.0",
             "source": {
@@ -88,6 +158,77 @@
             ],
             "description": "HTML5 Mini Template for quick rendering of status pages, TOC pages, or any other minimal single-serving site",
             "time": "2020-05-11T13:59:21+00:00"
+        },
+        {
+            "name": "symfony/dotenv",
+            "version": "v5.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dotenv.git",
+                "reference": "efd887f012127acad22325d109fe8ddf635f1f97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/efd887f012127acad22325d109fe8ddf635f1f97",
+                "reference": "efd887f012127acad22325d109fe8ddf635f1f97",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "require-dev": {
+                "symfony/process": "^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Dotenv\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Registers environment variables from a .env file",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-28T08:20:26+00:00"
         }
     ],
     "packages-dev": [],
