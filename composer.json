@@ -1,6 +1,6 @@
 {
     "name": "pixelbrackets/mattermost-clap",
-    "description": "Matternmost Clap Integration",
+    "description": "Mattermost Clap Integration",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "require": {

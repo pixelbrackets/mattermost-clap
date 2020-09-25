@@ -6,26 +6,28 @@
 [![License](https://img.shields.io/badge/license-gpl--2.0--or--later-blue.svg?style=flat-square)](https://spdx.org/licenses/GPL-2.0-or-later.html)
 [![Mattermost Integration](https://img.shields.io/badge/mattermost-slash_command-blue.svg?style=flat-square)](https://about.mattermost.com/community-applications/)
 
-This integration adds the clap emoji after every word in phrase written in a 
+This integration adds the clap emoji after every word in a phrase written in a
 Mattermost channel.
 
-    Webhooks 👏 are 👏 awesome 👏
+![Screenshot](./docs/screenshot.png)
  
-🚀 A build of the integration is available as [Webapp](https://mattermost-clap.herokuapp.com/)
-
-This repository contains the sourcecode to build the integration.
-
 ## Requirements
 
 - PHP
 
 ## Installation
 
-`composer install`
+Packagist Entry https://packagist.org/packages/pixelbrackets/mattermost-clap
 
 ## Source
 
 https://gitlab.com/pixelbrackets/mattermost-clap
+
+Mirror https://github.com/pixelbrackets/mattermost-clap
+
+## Demo
+
+🚀 https://mattermost-clap.app.pixelbrackets.de/
 
 ## License
 
