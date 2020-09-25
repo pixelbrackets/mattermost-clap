@@ -1,5 +1,10 @@
 # Changelog
 
+2020-09-25 Dan Untenzu <mail@pixelbrackets.de>
+
+  * 1.2.0
+  * FEATURE Docs: Change demo URL
+
 2020-08-06 Dan Untenzu <mail@pixelbrackets.de>
 
   * 1.1.0
